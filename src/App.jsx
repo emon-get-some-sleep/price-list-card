@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './component/Navbar'
 import PriceList from './component/PriceList/PriceList'
+import Dashboard from './component/Dashboard/Dashboard'
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       '>hello from tailwind</h1>
 
       <PriceList></PriceList>
+
+      <Dashboard></Dashboard>
     </div>
   )
 }
